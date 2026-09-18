@@ -1,0 +1,130 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1; classes = {}; objectVersion = 56;
+	objects = {
+		865B9371A0F048FA8D310514 /* AIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E4CC91F5E41748694C37E /* AIClient.swift */; };
+		C17465A4BC1D4133A88E8A07 /* ConversationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000111EF6A434965947CC3C9 /* ConversationStore.swift */; };
+		A1B2C3D4E5F64789A0B1C2D3 /* AIAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E4F5A64789B0C1D2E3 /* AIAccount.swift */; };
+		C2D3E4F5A6B7489AC1D2E3F4 /* AIAccountStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4F5A6B7C8490BD2E3F4A5 /* AIAccountStore.swift */; };
+		E4F5A6B7C8D9491CE3F4A5B6 /* AIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A6B7C8D9E04A2DF4A5B6C7 /* AIRouter.swift */; };
+		84CC83E2A1684DF5910A7D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FE952DA8AA4E5B89495039 /* AppDelegate.swift */; };
+		451C2397983744749F9DC9C7 /* BeaconApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD39C19680414434B048B21F /* BeaconApp.swift */; };
+		93AAB30F905F4170B7F280A9 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21293CD6C3F14D07ADBAA7B3 /* StatusItemController.swift */; };
+		12D2466B63844FDA845CA0C8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C638CE3E274CA8ACF8FE73 /* SettingsView.swift */; };
+		4B7FE9DE62BE4C93BB4CE85B /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6289EF339F43039CB6DD88 /* SettingsWindowController.swift */; };
+		6014B9DE6B2B4E58A3A29A85 /* AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81925BE362014341AED23631 /* AppPreferences.swift */; };
+		76D12FCDCBB54BDC90C83FE8 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05DD9E5845E4E34B38FA524 /* KeychainStore.swift */; };
+		34CE5511DF7C421A9B16BFEA /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D349C8BFE2485BB7D4CA62 /* Palette.swift */; };
+		A7B8C9D0E1F24355A6B7C8D9 /* SpeechDictationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C9D0E1F2A35466B7C8D9E0 /* SpeechDictationController.swift */; };
+		EB9340E0B3624C4F9142C48A /* FloatingIslandHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996A96854344D78A0A30BF7 /* FloatingIslandHost.swift */; };
+		BD3F762728DD4B2E901EDBD4 /* GlassChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA62D6E361B451DB32D0A7B /* GlassChrome.swift */; };
+		B3321DB29E33472C87F8BEB4 /* IslandPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E6331E77F452B9131F0A8 /* IslandPanelController.swift */; };
+		CD1166ACAA504B839CF7FCDC /* IslandSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AA992E0954595A696AE59 /* IslandSession.swift */; };
+		8816C268DB7E4635B32EDD22 /* SiriStyleBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91752F54E1DA43D1849F4F8F /* SiriStyleBubble.swift */; };
+		11AA22BB33CC44DD55EE66FF /* AgentTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB33CC44DD55EE66FF7788 /* AgentTool.swift */; };
+		33CC44DD55EE66FF77889900 /* AgentPermissionGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD55EE66FF77889900AABB /* AgentPermissionGate.swift */; };
+		55EE66FF77889900AABBCC11 /* AgentExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF77889900AABBCC11DDEE /* AgentExecutor.swift */; };
+		77889900AABBCC11DDEEFF22 /* AgentOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889900AABBCC11DDEEFF2233 /* AgentOrchestrator.swift */; };
+		5A17269C736D4ED3B00AA881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEC320E9FD9461EAB3F84D0 /* Assets.xcassets */; };
+		D29E4CC91F5E41748694C37E /* AIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIClient.swift; sourceTree = "<group>"; };
+		000111EF6A434965947CC3C9 /* ConversationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationStore.swift; sourceTree = "<group>"; };
+		B1C2D3E4F5A64789B0C1D2E3 /* AIAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAccount.swift; sourceTree = "<group>"; };
+		D3E4F5A6B7C8490BD2E3F4A5 /* AIAccountStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAccountStore.swift; sourceTree = "<group>"; };
+		F5A6B7C8D9E04A2DF4A5B6C7 /* AIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIRouter.swift; sourceTree = "<group>"; };
+		66FE952DA8AA4E5B89495039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD39C19680414434B048B21F /* BeaconApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconApp.swift; sourceTree = "<group>"; };
+		21293CD6C3F14D07ADBAA7B3 /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
+		A8C638CE3E274CA8ACF8FE73 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FC6289EF339F43039CB6DD88 /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		81925BE362014341AED23631 /* AppPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
+		A05DD9E5845E4E34B38FA524 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		B4D349C8BFE2485BB7D4CA62 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		B8C9D0E1F2A35466B7C8D9E0 /* SpeechDictationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechDictationController.swift; sourceTree = "<group>"; };
+		8996A96854344D78A0A30BF7 /* FloatingIslandHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingIslandHost.swift; sourceTree = "<group>"; };
+		3CA62D6E361B451DB32D0A7B /* GlassChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassChrome.swift; sourceTree = "<group>"; };
+		C61E6331E77F452B9131F0A8 /* IslandPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandPanelController.swift; sourceTree = "<group>"; };
+		0E2AA992E0954595A696AE59 /* IslandSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandSession.swift; sourceTree = "<group>"; };
+		91752F54E1DA43D1849F4F8F /* SiriStyleBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriStyleBubble.swift; sourceTree = "<group>"; };
+		22BB33CC44DD55EE66FF7788 /* AgentTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentTool.swift; sourceTree = "<group>"; };
+		44DD55EE66FF77889900AABB /* AgentPermissionGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentPermissionGate.swift; sourceTree = "<group>"; };
+		66FF77889900AABBCC11DDEE /* AgentExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentExecutor.swift; sourceTree = "<group>"; };
+		889900AABBCC11DDEEFF2233 /* AgentOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentOrchestrator.swift; sourceTree = "<group>"; };
+		ABEC320E9FD9461EAB3F84D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A0F7B049CAF4A129569F3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF92DE96DEA3401E905FAEDE /* Beacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BE00AE3F06405093690300 /* Frameworks */ = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		247BE2561A95458BA150D1C4 = { isa = PBXGroup; children = (7E41EAFB0A764BC5ABB148CE,8C381DFEE63C4C1396D91916,); sourceTree = "<group>"; };
+		8C381DFEE63C4C1396D91916 /* Products */ = { isa = PBXGroup; children = (AF92DE96DEA3401E905FAEDE,); name = Products; sourceTree = "<group>"; };
+		7E41EAFB0A764BC5ABB148CE /* Beacon */ = { isa = PBXGroup; children = (BC5A629FC05843A0BB0F6A25,710189BDBE9F4CB7A741CC2D,64AC0D9BD692452EA7339E3B,12CE97449EB6406FBD6C23B0,99AGENT00GROUP00BEACON01,B366BD237E2F440E923C3E04,ABEC320E9FD9461EAB3F84D0,3A0F7B049CAF4A129569F3BA,); path = Beacon; sourceTree = "<group>"; };
+		BC5A629FC05843A0BB0F6A25 /* App */ = { isa = PBXGroup; children = (
+				66FE952DA8AA4E5B89495039 /* AppDelegate.swift */,
+				FD39C19680414434B048B21F /* BeaconApp.swift */,
+				21293CD6C3F14D07ADBAA7B3 /* StatusItemController.swift */,
+			); path = App; sourceTree = "<group>"; };
+		710189BDBE9F4CB7A741CC2D /* UI */ = { isa = PBXGroup; children = (
+				8996A96854344D78A0A30BF7 /* FloatingIslandHost.swift */,
+				3CA62D6E361B451DB32D0A7B /* GlassChrome.swift */,
+				C61E6331E77F452B9131F0A8 /* IslandPanelController.swift */,
+				0E2AA992E0954595A696AE59 /* IslandSession.swift */,
+				91752F54E1DA43D1849F4F8F /* SiriStyleBubble.swift */,
+			); path = UI; sourceTree = "<group>"; };
+		64AC0D9BD692452EA7339E3B /* Settings */ = { isa = PBXGroup; children = (
+				A8C638CE3E274CA8ACF8FE73 /* SettingsView.swift */,
+				FC6289EF339F43039CB6DD88 /* SettingsWindowController.swift */,
+			); path = Settings; sourceTree = "<group>"; };
+		12CE97449EB6406FBD6C23B0 /* AI */ = { isa = PBXGroup; children = (
+				B1C2D3E4F5A64789B0C1D2E3 /* AIAccount.swift */,
+				D3E4F5A6B7C8490BD2E3F4A5 /* AIAccountStore.swift */,
+				F5A6B7C8D9E04A2DF4A5B6C7 /* AIRouter.swift */,
+				D29E4CC91F5E41748694C37E /* AIClient.swift */,
+				000111EF6A434965947CC3C9 /* ConversationStore.swift */,
+			); path = AI; sourceTree = "<group>"; };
+		99AGENT00GROUP00BEACON01 /* Agent */ = { isa = PBXGroup; children = (
+				22BB33CC44DD55EE66FF7788 /* AgentTool.swift */,
+				44DD55EE66FF77889900AABB /* AgentPermissionGate.swift */,
+				66FF77889900AABBCC11DDEE /* AgentExecutor.swift */,
+				889900AABBCC11DDEEFF2233 /* AgentOrchestrator.swift */,
+			); path = Agent; sourceTree = "<group>"; };
+		B366BD237E2F440E923C3E04 /* Support */ = { isa = PBXGroup; children = (
+				81925BE362014341AED23631 /* AppPreferences.swift */,
+				A05DD9E5845E4E34B38FA524 /* KeychainStore.swift */,
+				B4D349C8BFE2485BB7D4CA62 /* Palette.swift */,
+				B8C9D0E1F2A35466B7C8D9E0 /* SpeechDictationController.swift */,
+			); path = Support; sourceTree = "<group>"; };
+		E796633F645F46D0A53C4128 /* Beacon */ = { isa = PBXNativeTarget; buildConfigurationList = 55A90AD560BC4273AA4B9317; buildPhases = (2A3CC9AA5AED494E8185A92B,21BE00AE3F06405093690300,2588639A45704B0894642C4B,); buildRules = (); dependencies = (); name = Beacon; productName = Beacon; productReference = AF92DE96DEA3401E905FAEDE; productType = "com.apple.product-type.application"; };
+		A32FF27CE7CC40B2AC0E7CE3 = { isa = PBXProject; attributes = {BuildIndependentTargetsInParallel=1;}; buildConfigurationList = CBBBA81038084B68A66C8647; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = 247BE2561A95458BA150D1C4; productRefGroup = 8C381DFEE63C4C1396D91916; projectDirPath = ""; projectRoot = ""; targets = (E796633F645F46D0A53C4128,); };
+		2588639A45704B0894642C4B = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (5A17269C736D4ED3B00AA881,); runOnlyForDeploymentPostprocessing = 0; };
+		2A3CC9AA5AED494E8185A92B = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				A1B2C3D4E5F64789A0B1C2D3,
+				C2D3E4F5A6B7489AC1D2E3F4,
+				E4F5A6B7C8D9491CE3F4A5B6,
+				11AA22BB33CC44DD55EE66FF,
+				33CC44DD55EE66FF77889900,
+				55EE66FF77889900AABBCC11,
+				77889900AABBCC11DDEEFF22,
+				865B9371A0F048FA8D310514,
+				C17465A4BC1D4133A88E8A07,
+				84CC83E2A1684DF5910A7D53,
+				451C2397983744749F9DC9C7,
+				93AAB30F905F4170B7F280A9,
+				12D2466B63844FDA845CA0C8,
+				4B7FE9DE62BE4C93BB4CE85B,
+				6014B9DE6B2B4E58A3A29A85,
+				76D12FCDCBB54BDC90C83FE8,
+				34CE5511DF7C421A9B16BFEA,
+				A7B8C9D0E1F24355A6B7C8D9,
+				EB9340E0B3624C4F9142C48A,
+				BD3F762728DD4B2E901EDBD4,
+				B3321DB29E33472C87F8BEB4,
+				CD1166ACAA504B839CF7FCDC,
+				8816C268DB7E4635B32EDD22,
+			); runOnlyForDeploymentPostprocessing = 0; };
+		CB8BDA9B9E5D450C80DA1DAB = { isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; DEBUG_INFORMATION_FORMAT = dwarf; MACOSX_DEPLOYMENT_TARGET = 26.0; ONLY_ACTIVE_ARCH = YES; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		DB40E3B820DC445495863E25 = { isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; MACOSX_DEPLOYMENT_TARGET = 26.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; }; name = Release; };
+		C8632DF674A04B91B9029063 = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Beacon/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks",); MACOSX_DEPLOYMENT_TARGET = 26.0; MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = com.hectorypz.beacon; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+		2EB6ECC536324EBF955202DF = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Beacon/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks",); MACOSX_DEPLOYMENT_TARGET = 26.0; MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = com.hectorypz.beacon; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Release; };
+		CBBBA81038084B68A66C8647 = { isa = XCConfigurationList; buildConfigurations = (CB8BDA9B9E5D450C80DA1DAB,DB40E3B820DC445495863E25,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		55A90AD560BC4273AA4B9317 = { isa = XCConfigurationList; buildConfigurations = (C8632DF674A04B91B9029063,2EB6ECC536324EBF955202DF,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+	};
+	rootObject = A32FF27CE7CC40B2AC0E7CE3;
+}

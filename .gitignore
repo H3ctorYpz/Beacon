@@ -1,0 +1,41 @@
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+.swiftpm/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.p12
+**/Secrets.xcconfig
+**/GoogleService-Info.plist
+**/credentials.json
+**/*api*key*
+
+# Xcode / tooling noise
+timeline.xctimeline
+playground.xcworkspace
+*.xcuserdatad
+
+# Local helper scripts / build logs (not part of the app)
+_*.py
+_*.sh
+*_out.txt
+com.hectorypz.beacon.plist.snippet
+
+# Misc
+docs/.cache/
+*.log
+~/Library/
+.idea/
+.vscode/
