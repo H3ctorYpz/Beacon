@@ -46,12 +46,13 @@ High-level architecture:
 4. **Agent** — When Mac tools are enabled, the model may request tools; sensitive actions show a permission dialog first.
 5. **Speech** — `SpeechDictationController` uses Apple Speech and fills the composer.
 
-## Screenshots / icon
+## Demo / screenshots
+
+[Watch the demo](docs/demo.mp4) — menu-bar island, chat, and expand/collapse.
 
 App icon (committed under `docs/` and `Beacon/Assets.xcassets/AppIcon.appiconset/`):
 
 ![Beacon](docs/icon.png)
-
 ## Requirements
 
 - **macOS 26+** (deployment target in the Xcode project; lower it locally if needed)
