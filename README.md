@@ -48,11 +48,16 @@ High-level architecture:
 
 ## Demo / screenshots
 
-[Watch the demo](docs/demo.mp4) — menu-bar island, chat, and expand/collapse.
+[![Beacon demo on YouTube](https://img.youtube.com/vi/hYhYNhmuTHM/maxresdefault.jpg)](https://youtu.be/hYhYNhmuTHM)
+
+**[Watch on YouTube](https://youtu.be/hYhYNhmuTHM)** — menu-bar island, chat, and expand/collapse.
+
+Local copy in the repo: [docs/demo.mp4](docs/demo.mp4)
 
 App icon (committed under `docs/` and `Beacon/Assets.xcassets/AppIcon.appiconset/`):
 
 ![Beacon](docs/icon.png)
+
 ## Requirements
 
 - **macOS 26+** (deployment target in the Xcode project; lower it locally if needed)
